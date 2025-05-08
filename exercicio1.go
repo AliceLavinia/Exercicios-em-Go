@@ -6,7 +6,7 @@ import "fmt"
 // 	fmt.Println("Hello World")
 // }
 
-func Main() {
+func main() {
     var ano int = 2025
 	var pi float64 = 3.14
 	var nome string = "Alice"
@@ -16,6 +16,4 @@ func Main() {
 	fmt.Println("O valor de pi é igual",pi)
 	fmt.Println("O seu nome é ",nome)
 	fmt.Println("Seu status de casada é",casada)
-
-
 }
